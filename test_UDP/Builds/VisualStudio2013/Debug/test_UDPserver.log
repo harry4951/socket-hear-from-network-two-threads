@@ -1,0 +1,36 @@
+﻿Build started 2016/3/22 17:48:51.
+     1>Project "C:\Users\s144037\Desktop\test_UDP\Builds\VisualStudio2013\test_UDPserver.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\JuceLibraryCode /I..\..\..\modules /ZI /nologo /W4 /WX- /MP /Od /Oy- /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D DEBUG /D _DEBUG /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=1.0.0 /D JUCE_APP_VERSION_HEX=0x10000 /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\modules\juce_core\juce_core.cpp ..\..\Source\Main.cpp
+         juce_core.cpp
+         Main.cpp
+     1>c:\users\s144037\desktop\test_udp\source\main.cpp(146): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : see declaration of '_sleep'
+     1>c:\users\s144037\desktop\test_udp\source\main.cpp(149): warning C4127: conditional expression is constant
+     1>c:\users\s144037\desktop\test_udp\source\main.cpp(203): warning C4512: 'Consumer' : assignment operator could not be generated
+                 c:\users\s144037\desktop\test_udp\source\main.cpp(187) : see declaration of 'Consumer'
+     1>c:\users\s144037\desktop\test_udp\source\main.cpp(195): warning C4127: conditional expression is constant
+     1>c:\users\s144037\desktop\test_udp\source\main.cpp(206): warning C4100: 'argv' : unreferenced formal parameter
+     1>c:\users\s144037\desktop\test_udp\source\main.cpp(206): warning C4100: 'argc' : unreferenced formal parameter
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\s144037\Desktop\test_UDP\Builds\VisualStudio2013\Debug\\test_UDPserver.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\\test_UDPserver.pdb" /SUBSYSTEM:CONSOLE /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\s144037\Desktop\test_UDP\Builds\VisualStudio2013\Debug\test_UDPserver.lib" /MACHINE:X86 /SAFESEH:NO Debug\resources.res
+         Debug\\Main.obj
+         Debug\\juce_audio_basics.obj
+         Debug\\juce_audio_devices.obj
+         Debug\\juce_audio_formats.obj
+         Debug\\juce_audio_processors.obj
+         Debug\\juce_core.obj
+         Debug\\juce_cryptography.obj
+         Debug\\juce_data_structures.obj
+         Debug\\juce_events.obj
+         Debug\\juce_graphics.obj
+         Debug\\juce_gui_basics.obj
+         Debug\\juce_gui_extra.obj
+         Debug\\juce_opengl.obj
+         Debug\\juce_video.obj
+         test_UDPserver.vcxproj -> C:\Users\s144037\Desktop\test_UDP\Builds\VisualStudio2013\Debug\test_UDPserver.exe
+     1>Done Building Project "C:\Users\s144037\Desktop\test_UDP\Builds\VisualStudio2013\test_UDPserver.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.50
